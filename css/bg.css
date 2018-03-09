@@ -25,3 +25,18 @@
     background-position-y: 150px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .container-background {
+    background-position-y: 0px;
+  }
+  .hero-text h1 {
+    font-size: 110px;
+  }
+  .hero-text h2 {
+    letter-spacing: 6px;
+  }
+  .about-hero {
+    display: contents;
+    text-align: center;
+  }
+}
