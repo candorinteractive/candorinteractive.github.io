@@ -2,9 +2,11 @@ doctype html
 html(lang='en')
   head
     meta(charset="utf-8")
+    meta(name="robots" content="noindex,nofollow")
     title Candor Interactive
     meta(name="description", content="Candor Interactive - Coming soon")
-    link(rel="stylesheet" href="main.css")
+    link(rel="stylesheet" href="css/main.css")
+    link(rel="stylesheet" href="css/bg.css")
     != partial("_shared/analytics")
   body
     != yield
