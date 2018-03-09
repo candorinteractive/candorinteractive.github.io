@@ -1,12 +1,15 @@
 doctype html
-html(lang='en')
+html(lang='en', dir="ltr")
   head
     meta(charset="utf-8")
-    meta(name="robots" content="noindex,nofollow")
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
     title Candor Interactive
-    meta(name="description", content="Candor Interactive - Coming soon")
+    meta(name="description", content="Candor Interactive is currently working on a puzzle game calle 'Lure', and is taking on clients.")
     link(rel="stylesheet" href="css/main.css")
     link(rel="stylesheet" href="css/bg.css")
+    link(rel='apple-touch-icon', sizes='180x180', href='fav/apple-touch-icon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='fav/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='fav/favicon-16x16.png')
     != partial("_shared/analytics")
   body
     != yield
