@@ -17,6 +17,18 @@
     height: 1000px;
   }
 }
+@media only screen and (max-width: 690px) {
+  .about-hero {
+    display: contents;
+    text-align: center;
+  }
+  .about-text {
+    padding: 20px;
+  }
+  .about-text p {
+    width: auto
+  }
+}
 @media only screen and (max-width: 600px) {
   .container-hero {
     width: 400px;
